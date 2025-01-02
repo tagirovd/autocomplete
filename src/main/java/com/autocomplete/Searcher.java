@@ -42,7 +42,6 @@ public class Searcher {
                 resultRowNumbers.addAll(entry.getValue());
             }
         }
-        index.forEach((key, value) -> System.out.println(value));
 
         return resultRowNumbers;
     }
